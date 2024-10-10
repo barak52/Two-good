@@ -32,7 +32,7 @@ function videoanimation(){
     videocon.addEventListener("mousemove", function(dets) {
         gsap.to(play,{
           left:dets.x-50,
-          top:dets.y-80
+          top:dets.y-40
     
     
             
@@ -81,21 +81,6 @@ document.addEventListener("mousemove",function(dets){
     )
 })
 
-// document.querySelector("#child1").addEventListener("mouseenter",function(){
-//     gsap.to("#cursor",{
-//         transform: 'translate(-50%, -50%) scale(1)', 
-//     })
-// }
-    
-// )
-// document.querySelector("#child1").addEventListener("mouseleave",function(){
-//     gsap.to("#cursor",{
-//         transform: 'translate(-50%, -50%) scale(0)', 
-//     })
-// }
-    
-// )
-
 
 document.querySelectorAll(".child").forEach(function(elem){
     elem.addEventListener("mousemove",function(){
@@ -114,3 +99,19 @@ document.querySelectorAll(".child").forEach(function(elem){
     })
 
 })
+
+var box = document.querySelector(".box");
+var para = document.querySelector("h2"); 
+var ppp = document.querySelector(".parrr"); 
+
+box.addEventListener("mouseenter", function() {
+   
+    ppp.style.height= '100%'; // Show the h2 when mouse enters the box
+    para.style.opacity = '1';
+});
+
+box.addEventListener("mouseleave", function() {
+   
+    ppp.style.height= '0%'; // Show the h2 when mouse enters the box
+    para.style.opacity = '0';
+});
