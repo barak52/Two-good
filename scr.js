@@ -115,3 +115,18 @@ box.addEventListener("mouseleave", function() {
     ppp.style.height= '0%'; // Show the h2 when mouse enters the box
     para.style.opacity = '0';
 });
+
+
+
+gsap.to(".page2 h1 ",{
+    transform:"translateX(-120%)",
+    scrollTrigger:{
+        trigger:".page2",
+        scroller:"body",
+        markers:true,
+        start:"top 0%",
+        end:"top -100%",
+        scrub:2,
+        pin:true,
+    }
+})
