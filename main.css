@@ -601,7 +601,230 @@ a:hover::after{
     height: 80%;
 }
 
-
+ /* FDHHGKLKKKKKFFFFFFFFFFFFFFFFFFFFFF */
+ /* foooooooooootttttttttttttteeeeeeeeeeeeeeeeeeeeeeerrrrrrrrrrrrrrrrrrrrrrrrrr */
+ footer{
+    display: flex;
+    background-color:rgb(255, 255, 255);
+    height: 460px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    margin-top: 100px;
+  }
+  
+  .foo-1 img{
+    text-align: start;
+    margin-left: -440px;
+    margin-top: 80px;
+  }
+  .foo-1 p {
+    margin-left: 70px;
+   line-height: 1.5;
+   font-size: 22px;
+   text-align: start;
+   margin-top: 20px;
+   color: #262626;
+  }
+  
+  .word h1{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .word h2{
+    font-size: 19px;
+    text-align: start;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    margin-left: 00px;
+    margin-top: 0px;
+  
+    
+  }
+  .word-2{
+    margin-top: 100px;
+    margin-right: 70px;
+  }
+  .word-2 h1{
+    font-size: 32px;
+    
+    font-weight: 500;
+    margin-right: 70px;
+  
+  }
+  .lll{
+    display: flex;
+    margin-top: 20px;
+   
+  
+  
+  }
+  
+  .lll h2{
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    margin-top: 10PX;
+  
+  
+  }
+  
+  .last{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    border-top: 1px solid rgb(198, 198, 198);
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center  ;
+    justify-content: center;
+  
+    
+  }
+  
+  .last h1{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 23px;
+  
+  }
+  .last img{
+    width: 50PX;
+    height: 50PX;
+    margin-top: 16px;
+    margin-right: 10PX;
+    
+  }
+  
+  
+  
+  /*    contact usss  */
+  
+  .contact{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    width: 1440px;
+    height: 100vh;
+    background-color:rgb(0, 0, 0) ;
+  }
+  
+  .cardo{
+    max-width: 519px;
+    height: 299px;
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 195px;
+    padding-top: 25px;
+    margin-left: 50px;
+    
+  
+  
+    border: 2px solid #626262;
+    background-color:rgba(14, 14, 14, 1);
+  }
+  .cardo h1{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 50px;
+    /* padding: 0px 36px; */
+    margin-top:15px;
+    
+  }
+  .cardo h3{
+    color: aliceblue;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    padding-left: 30px;
+  
+  
+  
+  }
+  .cardo img{
+    width: 200px;
+    height: 40px;
+    margin-left: 48px;
+    margin-top: 10px;    
+  }
+  .form{
+    width: 50%;
+  }
+  .mees{
+    width: 50%;
+  }
+  
+  .divv{
+    display: flex;
+  }
+  
+  input{
+    width: 286px;
+    height: 51px;
+    padding-left: 20px;
+    border-radius: 5px;
+    margin: 15px;
+    border: #626262 2px solid;
+    background: transparent;
+   
+   
+  }
+  ::placeholder {
+    color: white
+    ;
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12-18 */
+    color: red;
+  }
+  
+  .Message{
+    width: 600px;
+    height: 279px;
+    padding-left: 20px;
+    border-radius: 5px;
+    padding-bottom: 220px;
+    margin: 15px;
+    border: #626262 2px solid;
+    
+  }
+  
+  .Send{
+    width: 181px ;
+    height:  52px;
+    color: white;
+   border: none;
+    border-radius: 20px;
+    background: linear-gradient( to right, rgba(198, 30, 56, 1), rgba(198, 30, 56, 1), rgba(198, 30, 56, 0));
+    font-size: 18PX;
+    margin: auto;
+  
+   
+  
+    transition: transform 0.4s ease 0s;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 200px;
+    margin-top: 20px;
+    
+  
+  
+  }
+  
 
 
 @media (max-width:600px) {
